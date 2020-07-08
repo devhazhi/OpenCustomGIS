@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCom.CustomGIS.Interface", "DevCom.CustomGIS.Interface\DevCom.CustomGIS.Interface.csproj", "{FC8A46DD-83D5-4567-8B0F-9A239637B0D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevCom.OpenGIS.App", "DevCom.OpenGIS.App\DevCom.OpenGIS.App.csproj", "{2B3594F5-095C-40F1-B53E-E04AEC140C8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCom.CustomGIS.RabbitMQ", "DevCom.CustomGIS.RabbitMQ\DevCom.CustomGIS.RabbitMQ.csproj", "{5270EB97-D678-4F20-A4F6-0B66FA712CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCom.CustomGIS.Service", "DevCom.CustomGIS.Service\DevCom.CustomGIS.Service.csproj", "{F1C9F8B0-8575-4349-B14A-6CC536AE523F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevCom.CustomGIS.WebApi", "DevCom.CustomGIS.WebApi\DevCom.CustomGIS.WebApi.csproj", "{396A752D-9493-4D00-A7B1-81156AA18104}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{FC8A46DD-83D5-4567-8B0F-9A239637B0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC8A46DD-83D5-4567-8B0F-9A239637B0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC8A46DD-83D5-4567-8B0F-9A239637B0D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B3594F5-095C-40F1-B53E-E04AEC140C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B3594F5-095C-40F1-B53E-E04AEC140C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B3594F5-095C-40F1-B53E-E04AEC140C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B3594F5-095C-40F1-B53E-E04AEC140C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5270EB97-D678-4F20-A4F6-0B66FA712CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5270EB97-D678-4F20-A4F6-0B66FA712CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5270EB97-D678-4F20-A4F6-0B66FA712CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5270EB97-D678-4F20-A4F6-0B66FA712CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C9F8B0-8575-4349-B14A-6CC536AE523F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C9F8B0-8575-4349-B14A-6CC536AE523F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C9F8B0-8575-4349-B14A-6CC536AE523F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C9F8B0-8575-4349-B14A-6CC536AE523F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396A752D-9493-4D00-A7B1-81156AA18104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396A752D-9493-4D00-A7B1-81156AA18104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396A752D-9493-4D00-A7B1-81156AA18104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396A752D-9493-4D00-A7B1-81156AA18104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

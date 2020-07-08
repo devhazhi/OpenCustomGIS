@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DevCom.CustomGIS.Interface.Attribute.Dto
 {
-    public class AttributeDto
+    public class ChangedAttributeDto
     {
     }
 }

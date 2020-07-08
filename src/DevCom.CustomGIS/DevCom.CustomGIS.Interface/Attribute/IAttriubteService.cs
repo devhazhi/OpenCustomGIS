@@ -6,7 +6,7 @@ using DevCom.CustomGIS.Interface.Attribute.Dto;
 
 namespace DevCom.CustomGIS.Interface.Attribute
 {
-    interface IAttriubteService
+    public interface IAttributeService
     {
         Task<Guid> CreateAsync(CreateAttributeDto attribute);
         Task<bool> UpdateAsync(UpdateAttributeDto attribute);

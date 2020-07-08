@@ -1,5 +1,9 @@
 src/DevCom.CustomGIS/DevCom.CustomGIS.Interface/obj/
 src/DevCom.CustomGIS/DevCom.CustomGIS.Interface/bin/
-src/DevCom.CustomGIS/DevCom.OpenGIS.App/obj/
-src/DevCom.CustomGIS/DevCom.OpenGIS.App/bin/
+src/DevCom.CustomGIS/DevCom.CustomGIS.WebApi/obj/
+src/DevCom.CustomGIS/DevCom.CustomGIS.WebApi/bin/
+src/DevCom.CustomGIS/DevCom.CustomGIS.RabbitMQ/obj/
+src/DevCom.CustomGIS/DevCom.CustomGIS.RabbitMQ/bin/
+src/DevCom.CustomGIS/DevCom.CustomGIS.Service/obj/
+src/DevCom.CustomGIS/DevCom.CustomGIS.Service/bin/
 src/DevCom.CustomGIS/.vs/
