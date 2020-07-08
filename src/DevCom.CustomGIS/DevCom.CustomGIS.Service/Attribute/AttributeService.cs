@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using DevCom.CustomGIS.Interface.Attribute;
+using DevCom.CustomGIS.Interface.Attribute.Dto;
 
 namespace DevComCustomGIS.Service.Attribute
 {
